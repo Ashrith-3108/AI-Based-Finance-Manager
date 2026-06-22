@@ -1,91 +1,111 @@
-# AI-Based Personal Finance Manager
+# 💰 AI-Based Personal Finance Manager
 
-## Overview
+> An AI-powered financial intelligence platform that helps users track expenses, forecast future spending, optimize budgets, detect anomalies, and receive personalized financial recommendations using Machine Learning and Predictive Analytics.
 
-AI-Based Personal Finance Manager is an intelligent financial management platform that leverages Artificial Intelligence, Machine Learning, and Predictive Analytics to help users track expenses, manage budgets, forecast future spending, detect anomalies, and receive personalized financial recommendations.
+### 🌐 Live Demo
 
-The system automates financial planning by analyzing spending behavior, forecasting future expenses, recommending investment strategies, and providing actionable insights to improve financial well-being. :contentReference[oaicite:0]{index=0}
-
----
-
-## Features
-
-- Automated Expense Tracking
-- Intelligent Transaction Classification
-- Budget Planning & Monitoring
-- Expense Forecasting using LSTM
-- Personalized Investment Recommendations
-- Spending Pattern Analysis
-- K-Means Expense Clustering
-- Financial Goal Management
-- Sentiment Analysis on User Feedback
-- Real-Time Financial Insights
-- Fraud & Anomaly Detection
-- Interactive Dashboard & Reports
+**🔗 Application:** https://aurora-finance-x-72506534739.asia-southeast1.run.app/
 
 ---
 
-## Technology Stack
+## 🚀 Project Overview
 
-### Programming Languages
-- Python
-- SQL
+AI-Based Personal Finance Manager is an intelligent personal finance platform designed to simplify financial planning and decision-making. The system leverages Artificial Intelligence, Machine Learning, and Predictive Analytics to automatically categorize transactions, analyze spending behavior, forecast future expenses, detect unusual financial activities, and generate personalized budgeting and investment recommendations.
+
+The platform empowers users to gain deeper insights into their financial habits through interactive dashboards, real-time analytics, and predictive financial modeling.
+
+---
+
+## ✨ Key Features
+
+### 📊 Expense Management
+
+* Automated Income & Expense Tracking
+* Intelligent Transaction Categorization
+* Spending Pattern Analysis
+* Monthly Financial Reports
+
+### 🤖 AI & Machine Learning
+
+* LSTM-Based Expense Forecasting
+* K-Means Spending Pattern Clustering
+* Predictive Financial Analytics
+* Personalized Budget Recommendations
+* AI-Driven Investment Suggestions
+* Sentiment Analysis on User Feedback
+
+### 🔒 Security & Fraud Detection
+
+* Anomaly Detection for Suspicious Transactions
+* Secure Authentication & Authorization
+* Protected Financial Data Storage
+* Fraud Monitoring System
+
+### 📈 Analytics Dashboard
+
+* Real-Time Financial Insights
+* Interactive Data Visualizations
+* Expense Trend Analysis
+* Budget Tracking & Monitoring
+* Financial Goal Progress Tracking
+
+---
+
+## 🛠️ Tech Stack
+
+### Backend
+
+* Python
+* Flask / FastAPI
+* REST APIs
+* SQL
 
 ### Machine Learning & AI
-- TensorFlow
-- Keras
-- Scikit-Learn
-- LSTM Networks
-- K-Means Clustering
-- Sentiment Analysis
-- Predictive Analytics
 
-### Data Analytics
-- Pandas
-- NumPy
-- Data Cleaning
-- Feature Engineering
-- Exploratory Data Analysis (EDA)
+* TensorFlow
+* Keras
+* Scikit-Learn
+* LSTM Networks
+* K-Means Clustering
+* Predictive Analytics
+* Sentiment Analysis
 
-### Visualization
-- Matplotlib
-- Financial Dashboards
-- Trend Analysis Graphs
+### Data Processing
+
+* Pandas
+* NumPy
+* Data Cleaning
+* Feature Engineering
+* Exploratory Data Analysis (EDA)
+
+### Frontend
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
 
 ### Database
-- MySQL
 
-### Web Technologies
-- React.js
-- Node.js
-- REST APIs
+* MySQL
 
-### Tools & Platforms
-- Git
-- GitHub
-- Jupyter Notebook
-- VS Code
-- Docker
-- Jenkins
+### DevOps & Deployment
 
----
+* Docker
+* Jenkins
+* GitHub Actions
+* Google Cloud Run
+* Git & GitHub
 
-## Software Engineering Concepts
+### Development Tools
 
-- Object-Oriented Programming (OOP)
-- Data Structures & Algorithms
-- Software Development Life Cycle (SDLC)
-- Agile Methodologies
-- REST API Development
-- Database Design
-- Machine Learning Pipelines
-- Testing & Debugging
-- CI/CD Concepts
-- Technical Documentation
+* VS Code
+* Jupyter Notebook
+* Postman
 
 ---
 
-## Project Architecture
+## 🏗️ System Architecture
 
 ```text
 User Financial Data
@@ -109,7 +129,7 @@ User Financial Data
  Budget Recommendation Engine
         │
         ▼
- Dashboard & Visualization
+ Analytics Dashboard
         │
         ▼
  Personalized Financial Insights
@@ -117,144 +137,86 @@ User Financial Data
 
 ---
 
-## Core Modules
+## 🎯 Business Impact
 
-### User Management
-- User Registration
-- Secure Authentication
-- Email OTP Verification
+✔ Improved financial visibility through automated expense tracking
 
-### Financial Analytics
-- Income Tracking
-- Expense Tracking
-- Spending Analysis
-- Budget Monitoring
+✔ Enabled proactive budget planning using predictive analytics
 
-### Machine Learning Modules
-- Transaction Classification
-- K-Means Clustering
-- LSTM Forecasting
-- Sentiment Analysis
+✔ Reduced manual financial management effort
 
-### Recommendation Engine
-- Budget Recommendations
-- Investment Suggestions
-- Savings Planning
+✔ Enhanced financial decision-making with AI-generated insights
 
-### Security Module
-- Fraud Detection
-- Anomaly Detection
-- Secure Data Storage
+✔ Improved security through anomaly and fraud detection
 
 ---
 
-## Project Responsibilities
+## 📸 Application Screenshots
 
-- Developed an AI-powered personal finance management platform for expense tracking, budgeting, forecasting, and investment planning.
-- Implemented K-Means Clustering to analyze spending behavior and segment financial patterns.
-- Built LSTM-based predictive models to forecast future expenses and improve financial planning accuracy.
-- Performed data preprocessing, feature engineering, exploratory data analysis, and predictive modeling on financial datasets.
-- Developed interactive dashboards and visualizations for real-time financial insights and decision support.
-- Integrated sentiment analysis, authentication mechanisms, and secure database management to enhance user experience and platform reliability.
+> Add screenshots here to showcase:
+>
+> * Dashboard Overview
+> * Expense Analytics
+> * Budget Planner
+> * Forecasting Results
+> * Investment Recommendations
+> * Fraud Detection Alerts
 
----
-
-## Key Functionalities
-
-### Expense Management
-- Track Income & Expenses
-- Categorize Transactions
-- Analyze Spending Habits
-
-### Budget Planning
-- Dynamic Budget Recommendations
-- Monthly Expense Forecasting
-- Savings Goal Tracking
-
-### Investment Guidance
-- Investment Recommendations
-- Financial Planning Strategies
-- Risk-Aware Suggestions
-
-### Security Features
-- Fraud Detection
-- Anomaly Monitoring
-- Secure Authentication
+```markdown
+![Dashboard](screenshots/dashboard.png)
+![Forecasting](screenshots/forecast.png)
+```
 
 ---
 
-## Machine Learning Workflow
+## 📊 Machine Learning Pipeline
 
 1. Data Collection
 2. Data Cleaning
 3. Feature Engineering
 4. Data Normalization
-5. K-Means Clustering
-6. LSTM Model Training
-7. Model Evaluation
-8. Expense Forecasting
-9. Budget Recommendation
-10. Dashboard Visualization
+5. Transaction Classification
+6. K-Means Clustering
+7. LSTM Model Training
+8. Model Evaluation
+9. Expense Forecasting
+10. Recommendation Generation
+11. Dashboard Visualization
 
 ---
 
-## Skills Demonstrated
+## 💼 Resume Project Description
 
-### Programming
-Python, SQL
+### AI-Based Personal Finance Manager | Machine Learning & Software Development
 
-### Machine Learning
-TensorFlow, Keras, Scikit-Learn, LSTM, K-Means Clustering, Predictive Analytics
-
-### Data Analytics
-Pandas, NumPy, EDA, Feature Engineering, Statistical Analysis
-
-### Software Engineering
-OOP, SDLC, Agile, REST APIs, Testing, Debugging
-
-### Databases
-MySQL, Database Design, Query Optimization
-
-### Tools
-Git, GitHub, Docker, Jenkins, Jupyter Notebook, VS Code
-
-### Professional Skills
-Problem Solving, Analytical Thinking, Communication, Team Collaboration, Financial Analysis
+* Developed an AI-powered personal finance management platform using Python, TensorFlow, Scikit-Learn, React.js, and MySQL for expense tracking, budgeting, forecasting, and financial analytics.
+* Implemented K-Means Clustering and LSTM models to analyze spending behavior and predict future expenses with data-driven financial recommendations.
+* Built interactive dashboards, anomaly detection systems, and secure authentication workflows, enhancing financial decision-making and user experience.
+* Deployed the application on Google Cloud Run with containerized deployment using Docker and CI/CD practices.
 
 ---
 
-## Resume Project Description
+## 🌟 Future Enhancements
 
-**AI-Based Personal Finance Manager | Machine Learning Developer**
-
-- Developed an AI-powered personal finance platform using Python, TensorFlow, Scikit-Learn, Pandas, and MySQL for expense tracking, budgeting, forecasting, and financial analytics.
-- Implemented K-Means Clustering and LSTM models to analyze spending behavior, predict future expenses, and generate personalized budget and investment recommendations.
-- Built interactive dashboards, performed data preprocessing and feature engineering, and integrated secure authentication mechanisms to improve financial decision-making and user experience.
-
----
-
-## Future Enhancements
-
-- Advanced Investment Portfolio Optimization
-- Real-Time Banking API Integration
-- Transformer-Based Financial Forecasting
-- Explainable AI (XAI)
-- Voice Assistant Integration
-- Blockchain-Based Financial Security
-- Multi-Language Support
-- Automated Wealth Management
-- Personalized Financial Coaching
+* Open Banking API Integration
+* Transformer-Based Expense Forecasting
+* Explainable AI (XAI)
+* Voice Assistant Support
+* Blockchain-Based Financial Security
+* Wealth Management Automation
+* Multi-Language Support
+* Mobile Application Development
 
 ---
 
-## ATS Keywords
+## 👨‍💻 Author
 
-Software Engineer, Software Developer, Graduate Trainee, Python Developer, Machine Learning Engineer, AI Engineer, Data Analyst, Financial Analytics, TensorFlow, Keras, Scikit-Learn, LSTM, K-Means Clustering, Predictive Analytics, Data Science, Data Analysis, Pandas, NumPy, MySQL, SQL, REST APIs, OOP, SDLC, Agile, Git, GitHub, Docker, Jenkins, Budget Forecasting, Financial Planning, Expense Tracking, Investment Recommendation, Business Intelligence.
+**Ashrith Vavillapally**
 
----
+B.Tech Artificial Intelligence & Machine Learning (2026)
 
-## Author
+Aspiring Software Engineer • Machine Learning Engineer • Data Engineer • AI Developer
 
-**B.Tech Artificial Intelligence & Machine Learning (2026)**
+### 🌐 Live Application
 
-**Aspiring Software Engineer | Software Developer | Machine Learning Engineer | Data Analyst**
+https://aurora-finance-x-72506534739.asia-southeast1.run.app/
